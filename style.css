@@ -1,0 +1,159 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.918);
+    color: #fff;
+
+}
+
+.main {
+
+    margin-top: 5%;
+
+}
+
+.mt-5 {
+
+    margin-top: 5rem;
+
+}
+
+a.button {
+
+    padding-top: 0.66em;
+    padding-bottom: 0.66em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    min-width: 6rem;
+    max-width: max-content;
+    user-select: none;
+    display: inline-block;
+
+}
+
+a.button:active {
+
+    box-shadow: none;
+
+}
+
+.button {
+
+    padding-top: 0.89em;
+    padding-bottom: 0.89em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    min-width: 8rem;
+    max-width: max-content;
+    user-select: none;
+
+}
+
+.button:focus {
+
+    box-shadow: none;
+
+}
+
+.button-purple {
+
+    
+    background-color: rgb(146, 62, 224);
+    color: white;
+    box-shadow: 0px 3px 3px rgb(158, 83, 228);
+
+}
+
+.button-purple:hover {
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: rgb(107, 35, 175);
+
+}
+
+.button-blue {
+
+    
+    background-color: rgb(24, 101, 216);
+    color: white;
+    box-shadow: 0px 3px 3px rgb(51, 122, 228);
+
+
+}
+
+.button-blue:hover {
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: rgb(20, 79, 168);
+
+}
+
+.button-red {
+
+    
+    background-color: rgb(241, 42, 42);
+    color: white;
+    box-shadow: 0px 3px 3px rgb(231, 66, 66);
+
+}
+
+.button-red:hover {
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: rgb(212, 18, 18);
+
+}
+
+.button-dark {
+
+    
+    background-color: rgba(36, 31, 31, 0.849);
+    color: white;
+    box-shadow: 0px 3px 3px rgba(61, 54, 54, 0.849);
+
+}
+
+.button-dark:hover {
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: rgba(20, 18, 18, 0.842);
+
+}
+
+.button-yellow {
+
+    
+    background-color: rgba(252, 248, 45, 0.938);
+    color: rgb(44, 44, 44);
+    box-shadow: 0px 3px 3px rgba(247, 244, 75, 0.918);
+
+}
+
+.button-yellow:hover {
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: rgb(231, 227, 2);
+
+}
